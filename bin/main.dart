@@ -1,3 +1,5 @@
+import 'animal.dart';
+
 void main() {
   // int a = 5;
   // double b = 1.2;
@@ -116,10 +118,17 @@ void main() {
   // printMessage("Thông báo!!");
   // var result = tinhTong(10, 5);
   // printMessage(result.toString());
+
+  // class va object
+  // class nó sẽ diện cho tập thể giong với nhau về kiểu dữ liệu
+  // object nó sẽ diện cho 1 các thể từ 1 tập thể nào đó
+
+  // access modifier không có
+
+  var cat = Animal();
+  cat.category = 'Cat';
+  cat.weight = 2;
+
 }
-// void printMessage(String message){
-//   print(message);
-// }
-//
-// int tinhTong(int a , int b) => a + b;
+
 
