@@ -1,5 +1,4 @@
 void main() {
-
   // int a = 5;
   // double b = 1.2;
   //
@@ -86,14 +85,41 @@ void main() {
   // if (a is int){
   //   print("a có kiểu dữ liệu là integer");
   // }
+  //
+  // var person1 = Person()
+  //         ..name = "Nguyen Văn Teo"
+  //         ..age = 10;
 
-  var person1 = Person()
-          ..name = "Nguyen Văn Teo"
-          ..age = 10;
+  // 3 : Câu điều kiện
+  // var text = "";
+  //
+  // if (text.isEmpty) {
+  //   print("Chuỗi rỗng");
+  // } else {
+  //   print("Có giá trị");
+  // }
 
+  // var month = 4;
+  //
+  // switch (month) {
+  //   case 4:
+  //     print("Tháng 4");
+  //     break;
+  // }
+
+  // var a ;
+  // if (a == null){
+  //   throw Exception("A là null");
+  // }
+  // assert(a != null , "A là null");
+
+  // printMessage("Thông báo!!");
+  // var result = tinhTong(10, 5);
+  // printMessage(result.toString());
 }
+// void printMessage(String message){
+//   print(message);
+// }
+//
+// int tinhTong(int a , int b) => a + b;
 
-class Person {
-  String name;
-  int age;
-}
