@@ -69,4 +69,31 @@ void main() {
   //
   // PI = 3.142;
   // print(PI);
+
+  // 2 : Toán tử
+  // var a = 5;
+  // var b = ++a;
+  // print(b);
+  // print(a);
+
+  // var a = 5;
+  // a ??= 10;
+  //
+  // print(a);
+
+  // var a = 123;
+  //
+  // if (a is int){
+  //   print("a có kiểu dữ liệu là integer");
+  // }
+
+  var person1 = Person()
+          ..name = "Nguyen Văn Teo"
+          ..age = 10;
+
+}
+
+class Person {
+  String name;
+  int age;
 }
