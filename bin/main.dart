@@ -34,16 +34,39 @@ void main() {
   //
   // print(a);
 
-  String a = "a";
-  String b = "b";
-  String c = "c";
+  // String a = "a";
+  // String b = "b";
+  // String c = "c";
+  //
+  // StringBuffer buffer = StringBuffer();
+  // buffer.write(a);
+  // buffer.write("def");
+  // buffer.write(b);
+  // buffer.write("mnk");
+  // buffer.write(c);
+  //
+  // print(buffer.toString());
 
-  StringBuffer buffer = StringBuffer();
-  buffer.write(a);
-  buffer.write("def");
-  buffer.write(b);
-  buffer.write("mnk");
-  buffer.write(c);
+  // String name = "Nguyen Văn A";
+  // int age = 10;
+  //
+  // String result = "Name : $name , age : ${age + 10}";
+  //
+  // print(result);
 
-  print(buffer.toString());
+  // String query =
+  //     "SELECT * FROM"
+  //     "user WHERE"
+  //     "id = 1";
+  // print(query);
+
+  // String name1 = "abc";
+  //
+  // final name = name1;
+  //
+  // // print(name);
+  // const PI = 1.23;
+  //
+  // PI = 3.142;
+  // print(PI);
 }
